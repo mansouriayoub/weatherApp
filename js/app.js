@@ -1,7 +1,7 @@
 class Forecast {
     constructor() {
         this.key = '3b7c57b688484f579c3130213201410';
-        this.cityURI = `http://api.weatherapi.com/v1/current.json`;
+        this.cityURI = `https://api.weatherapi.com/v1/current.json`;
     }
     async getCity(cityName) {
         const query = `?key=${this.key}&q=${cityName}`;
