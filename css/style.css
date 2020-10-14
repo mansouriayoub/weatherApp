@@ -1,0 +1,35 @@
+body {
+  letter-spacing: 0.2em;
+  font-size: 0.8em;
+  background-color: ghostwhite;
+}
+
+.container {
+  max-width: 400px;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: palevioletred;
+}
+
+.btn-danger {
+  background-color: palevioletred;
+  border: palevioletred;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: palevioletred;
+  border: palevioletred;
+  color: white;
+}
+
+.icon {
+  position: relative;
+  top: -100px;
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: -50px;
+}
